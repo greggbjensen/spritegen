@@ -2,5 +2,13 @@
 
 SpriteGen = require('../lib/spritegen');
 
-var spriteGen = new SpriteGen({ dir: 'D:/git/narrative-prototype/public/images/layout' });
-spriteGen.execute();
+try {
+    var spriteGen = new SpriteGen({ dir: 'D:/git/narrative-prototype/public/images' });
+    spriteGen.execute();
+}
+catch (err) {
+    console.log(err.message);
+
+    // Remove this later.
+    throw err;
+}
