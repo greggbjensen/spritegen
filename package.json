@@ -1,0 +1,40 @@
+{
+    "name": "spritegen",
+    "version": "1.0.0",
+    "description": "Sprite generator that takes a root directory and recursively combines all images into a sprite and style sheet.",
+    "main": "lib/spritegen.js",
+    "bin": {
+        "sprightly": "bin/spritegen"
+    },
+    "dependencies": {
+        "canvas-gyp":   "*",
+        "underscore": "*",
+        "optimist": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/greggjensen/spritegen.git"
+    },
+    "author": {
+        "name": "Gregg Jensen",
+        "email": "gjensen64@gmail.com",
+        "url": "https://github.com/greggjensen/spritegen"
+    },
+    "keywords": [
+        "sprite",
+        "css",
+        "html",
+        "combine",
+        "merge",
+        "image",
+        "icon",
+        "png",
+        "minify",
+        "optimize",
+        "optimization"
+    ],
+    "license": "MIT/X11",
+    "engine": {
+        "node": ">=0.4.0"
+    }
+}

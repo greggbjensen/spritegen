@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+SpriteGen = require('../lib/spritegen');
+
+var spriteGen = new SpriteGen({ dir: 'D:\git\narrative-prototype\public\images\layout' });
+spriteGen.execute();
