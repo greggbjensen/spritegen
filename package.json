@@ -7,7 +7,7 @@
         "sprightly": "bin/spritegen"
     },
     "dependencies": {
-        "canvas-gyp":   "*",
+        "canvas-gyp": "*",
         "underscore": "*",
         "optimist": "*"
     },
@@ -20,6 +20,12 @@
         "email": "gjensen64@gmail.com",
         "url": "https://github.com/greggjensen/spritegen"
     },
+    "contributors": [
+        {
+            "name": "Jon Dunn",
+            "email": "jondunndev@gmail.com"
+        }
+    ],
     "keywords": [
         "sprite",
         "css",
