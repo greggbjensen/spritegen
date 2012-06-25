@@ -65,6 +65,17 @@ This CSS works by simply assigning the class name to an element.
 	</html>
 ```
 
+### API usage
+
+spritegen can also be called directly by including the module.
+
+```javascript
+    var SpriteGen = require('spritegen');
+    var imagesPath = path.join(__dir, 'public/images');
+    var spriteGen = new SpriteGen({ dir: imagesPath, verbose: false });
+    spriteGen.execute();
+```
+
 ### Show help:
 
 	$ spritegen --help
