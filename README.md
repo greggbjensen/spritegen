@@ -3,9 +3,6 @@ spritegen
 
 Sprite generator that takes a root directory and recursively combines all images into a sprite and style sheet.
 
-## Authors
-    - Gregg Jensen ([Ancestry.com](gjensen64@gmail.com))
-    - Jon Dunn ([Ancestry.com](jondunndev@gmail.com))
 ## Installation
     npm install spritegen
 
