@@ -18,7 +18,7 @@ Ignore the section that describes how to install node-canvas. Currently node-can
 
 Recursively combines all images inside the directory "site/images" into one sprite.png and sprite.css per directory and sub-directory.
 
-The sprite.css generated is by folder and file name.
+The sprite.css is generated with classes by folder and file name.
 
 ```css
     .icons-answer-png {
