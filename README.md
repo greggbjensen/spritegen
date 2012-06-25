@@ -72,7 +72,7 @@ spritegen can also be called directly by including the module.
 ```javascript
     var SpriteGen = require('spritegen');
     var imagesPath = path.join(__dir, 'public/images');
-    var spriteGen = new SpriteGen({ dir: imagesPath, verbose: false });
+    var spriteGen = new SpriteGen({ dir: imagesPath, padding: 5 });
     spriteGen.execute();
 ```
 
