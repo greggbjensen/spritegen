@@ -65,7 +65,7 @@ This CSS works by simply assigning the class name to an element.
 	</html>
 ```
 
-### API usage
+### API usage:
 
 spritegen can also be called directly by including the module.
 
