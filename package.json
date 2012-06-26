@@ -1,6 +1,6 @@
 {
     "name": "spritegen",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Sprite generator that takes a root directory and recursively combines all images into a sprite and style sheet.",
     "main": "lib/spritegen.js",
     "bin": {
