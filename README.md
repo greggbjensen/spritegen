@@ -8,7 +8,7 @@ Sprite generator that takes a root directory and recursively combines all images
 
 ### Installation Help
 Spritegen requires node-canvas, which requires Cairo. To install Cairo on your system please follow the first portion of the [Wiki](https://github.com/LearnBoost/node-canvas/wiki/_pages) provided by the guys at LearnBoost.
-Ignore the section that describes how to install node-canvas. Currently node-canvas only supports node-waf for a direct npm install. Spritegen is using a gyp version of the repo, which I forked.
+Ignore the section that describes how to install node-canvas. Currently node-canvas only supports node-waf for a direct npm install. Spritegen is using a gyp version of the repo, which we forked.
 
 ## Examples
 
@@ -17,6 +17,13 @@ Ignore the section that describes how to install node-canvas. Currently node-can
 	$ spritegen --dir site/images
 
 Recursively combines all images inside the directory "site/images" into one sprite.png and sprite.css per directory and sub-directory.
+
+    site/
+        images/
+            icons/
+                answer.png
+                connect.png
+                discover.png
 
 The sprite.css is generated with classes by folder and file name.
 
