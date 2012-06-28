@@ -3,13 +3,20 @@ spritegen
 
 Sprite generator that takes a root directory and recursively combines all images into a sprite and style sheet.
 
+## Before You Install
+Spritegen requires a fork of node-canvas, which requires Cairo. To install Cairo follow the portion of the [Wiki](https://github.com/LearnBoost/node-canvas/wiki/_pages) that pertains to your operating system.
+Only follow the installing Cairo section, I'll walk you through the rest. Once Cairo is installed follow these steps:
+
+1. Add C:\GTK\bin to your path environment variable.
+2. Ensure that you have Python27 installed
+3. Ensure that you have node-gyp installed. If you don't then navigate to your nodejs install location and npm install -g node-gyp.
+4. Restart your computer
+
 ## Installation
     npm install spritegen
 
-### Installation Help
-Spritegen requires node-canvas, which requires Cairo. To install Cairo on your system please follow the first portion of the [Wiki](https://github.com/LearnBoost/node-canvas/wiki/_pages) provided by the guys at LearnBoost.
-Ignore the section that describes how to install node-canvas. Currently node-canvas only supports node-waf for a direct npm install. Spritegen is using a gyp version of the repo, which we forked.
-
+### Canvas Note
+If you're noticing that we are requiring a module called canvas-gyp instead of canvas, it's because node-canvas includes both waf and gyp. It is buggy and in our experience, always fails to compile on Windows machines. We created a fork called canvas-gyp that only uses gyp, which installs correctly on Windows.
 ## Examples
 
 ### Basic usage:

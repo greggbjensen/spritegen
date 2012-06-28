@@ -1,13 +1,13 @@
 {
     "name": "spritegen",
-    "version": "0.0.5",
+    "version": "0.0.4",
     "description": "Sprite generator that takes a root directory and recursively combines all images into a sprite and style sheet.",
     "main": "lib/spritegen.js",
     "bin": {
         "sprightly": "bin/spritegen"
     },
     "dependencies": {
-        "canvas": "*",
+        "canvas-gyp": "*",
         "underscore": "*",
         "optimist": "*"
     },
