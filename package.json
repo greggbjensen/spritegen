@@ -11,6 +11,10 @@
         "underscore": "*",
         "optimist": "*"
     },
+    "devDependencies": {
+        "buster": "*",
+        "buster-win": "*"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/greggjensen/spritegen.git"
